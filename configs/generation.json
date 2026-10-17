@@ -1,0 +1,19 @@
+{
+  "provider": "mock",
+  "model": "mock",
+  "seed": 42,
+  "difficulty": "mixed",
+  "min_chars": 10,
+  "max_chars": 1000,
+  "codebook_version": "sample-only-v0",
+  "codebook_text": "Illustrative public rules only. Actual deployment codebook unavailable.",
+  "rules": [
+    {
+      "rule_id": "context_hyperbole",
+      "description": "Interpret academic hyperbole in context; never use a lexical NO_RISK override.",
+      "template_family": "context-hyperbole-a",
+      "case_types": ["positive", "negative", "boundary", "context", "interaction"],
+      "class_counts": {"NO_RISK": 3, "SI3": 2, "SI4": 1, "SI5": 1}
+    }
+  ]
+}

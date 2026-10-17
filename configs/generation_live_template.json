@@ -1,0 +1,21 @@
+{
+  "provider": "openai_compatible",
+  "model": "REPLACE_WITH_VERIFIED_PROVIDER_MODEL",
+  "base_url": "https://api.openai.com/v1",
+  "allowed_hosts": ["api.openai.com"],
+  "credential_env": "OPENAI_API_KEY",
+  "public_synthetic_inputs_only": true,
+  "seed": 42,
+  "difficulty": "mixed",
+  "min_chars": 10,
+  "max_chars": 1000,
+  "max_calls": 4,
+  "max_input_tokens": 10000,
+  "max_output_tokens": 1000,
+  "budget_usd": null,
+  "input_usd_per_million": null,
+  "output_usd_per_million": null,
+  "codebook_version": "sample-only-v0",
+  "codebook_text": "Public illustrative codebook only; replace after reviewing data-sharing scope.",
+  "rules": [{"rule_id":"sample_rule","description":"A public illustrative rule, not a private transcript.","template_family":"sample-family-a","class_counts":{"NO_RISK":1,"SI3":1,"SI4":1,"SI5":1}}]
+}

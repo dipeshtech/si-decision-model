@@ -1,0 +1,10 @@
+{
+  "checkpoint_reload": "passed",
+  "deterministic_predictions_across_two_reloads": "passed",
+  "pretrained_encoder_tensor": "bert.encoder.layer.0.attention.self.query.weight",
+  "encoder_max_absolute_weight_change": 0.017395999282598495,
+  "operational_abstention": "passed",
+  "overlength_rejection": "passed",
+  "empty_input_rejection": "passed",
+  "held_out_test_rerun": false
+}

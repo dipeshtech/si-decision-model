@@ -1,0 +1,18 @@
+{
+  "train": {
+    "max_tokens": 55,
+    "over_limit": 0
+  },
+  "validation": {
+    "max_tokens": 47,
+    "over_limit": 0
+  },
+  "calibration": {
+    "max_tokens": 51,
+    "over_limit": 0
+  },
+  "test": {
+    "max_tokens": 46,
+    "over_limit": 0
+  }
+}

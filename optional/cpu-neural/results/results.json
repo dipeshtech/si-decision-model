@@ -1,0 +1,103 @@
+{
+  "warning": "SYNTHETIC ONLY. Unapproved custom taxonomy. Not clinically validated. All operational outputs require human review and abstain pending separate approval.",
+  "base_model": "google/bert_uncased_L-2_H-128_A-2",
+  "base_revision": "30b0a37ccaaa32f332884b96992754e246e48c5f",
+  "base_license": "Apache-2.0",
+  "training_mode": "full_encoder_finetuning",
+  "device": "cpu",
+  "parameter_count": 4386436,
+  "best_epoch": 8,
+  "best_validation_macro_f1": 0.8120614035087719,
+  "training_and_validation_seconds": 19.406831142000556,
+  "test_inference_seconds": 0.04143317499983823,
+  "test_examples": 102,
+  "test": {
+    "accuracy": 0.7058823529411765,
+    "macro_f1": 0.7071183025130393,
+    "confusion_matrix": [
+      [
+        13,
+        12,
+        0,
+        0
+      ],
+      [
+        0,
+        21,
+        5,
+        0
+      ],
+      [
+        0,
+        0,
+        26,
+        0
+      ],
+      [
+        0,
+        13,
+        0,
+        12
+      ]
+    ],
+    "classification_report": {
+      "NO_RISK": {
+        "precision": 1.0,
+        "recall": 0.52,
+        "f1-score": 0.6842105263157895,
+        "support": 25.0
+      },
+      "SI3": {
+        "precision": 0.45652173913043476,
+        "recall": 0.8076923076923077,
+        "f1-score": 0.5833333333333334,
+        "support": 26.0
+      },
+      "SI4": {
+        "precision": 0.8387096774193549,
+        "recall": 1.0,
+        "f1-score": 0.9122807017543859,
+        "support": 26.0
+      },
+      "SI5": {
+        "precision": 1.0,
+        "recall": 0.48,
+        "f1-score": 0.6486486486486487,
+        "support": 25.0
+      },
+      "accuracy": 0.7058823529411765,
+      "macro avg": {
+        "precision": 0.8238078541374474,
+        "recall": 0.701923076923077,
+        "f1-score": 0.7071183025130393,
+        "support": 102.0
+      },
+      "weighted avg": {
+        "precision": 0.8203531061793581,
+        "recall": 0.7058823529411765,
+        "f1-score": 0.7079161204548201,
+        "support": 102.0
+      }
+    },
+    "one_vs_rest_average_precision": {
+      "NO_RISK": 0.8644105820105821,
+      "SI3": 0.7239547990036908,
+      "SI4": 0.9647166061939445,
+      "SI5": 0.9845161290322579
+    },
+    "multiclass_brier_score": 0.545142165642019,
+    "experimental_threshold_coverage": 0.7352941176470589,
+    "experimental_threshold_accuracy_on_accepted": 0.8533333333333334
+  },
+  "thresholds": {
+    "NO_RISK": 0.0027281315997242928,
+    "SI3": 0.9774952530860901,
+    "SI4": 0.0038978694938123226,
+    "SI5": 0.004667709115892649
+  },
+  "versions": {
+    "torch": "2.14.1+cpu",
+    "transformers": "4.57.1",
+    "numpy": "2.3.5"
+  }
+}

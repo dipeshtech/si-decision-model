@@ -1,0 +1,10 @@
+{
+  "scope": "SAMPLE_ONLY_NOT_THE_USERS_FULL_CODEBOOK",
+  "codebook_version": "illustrative-v0",
+  "rules": [
+    {"rule_id":"context_hyperbole","description":"Interpret idioms in context; no lexical NO_RISK override."},
+    {"rule_id":"current_subject","description":"Separate current speaker evidence from quotations, history and third parties."},
+    {"rule_id":"missing_evidence","description":"Unmentioned details remain unknown, not false."},
+    {"rule_id":"highest_supported","description":"Apply approved highest-supported category; do not invent missing conditions."}
+  ]
+}

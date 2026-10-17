@@ -1,0 +1,18 @@
+{
+  "base": "Qwen/Qwen3.8-27B",
+  "base_revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+  "initialization": "raw_base_lora_new_head",
+  "epochs": 1,
+  "lr": 0.00002,
+  "head_lr": 0.0001,
+  "lora": 16,
+  "head_dim": 256,
+  "batch": 1,
+  "accum": 8,
+  "device": "cuda",
+  "dtype": "bf16",
+  "weights_dtype": "bf16",
+  "checkpointing": 1,
+  "max_state": 2048,
+  "seed": 0
+}

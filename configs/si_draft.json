@@ -1,0 +1,25 @@
+{
+  "name": "custom-si-draft-v0",
+  "status": "draft_unapproved",
+  "mode": "exclusive",
+  "labels": [
+    "NO_RISK",
+    "SI3",
+    "SI4",
+    "SI5"
+  ],
+  "question": "Which single custom risk category is supported by the supplied record and approved annotation codebook?",
+  "definitions": {
+    "NO_RISK": "No qualifying evidence in the supplied text under the approved codebook; not a claim about personal safety.",
+    "SI3": "User draft: wish to end life or ideation without plan or means.",
+    "SI4": "User draft: intent or wish not to live and knows a method or has a plan.",
+    "SI5": "User draft: wish not to live plus means, plan, and a specific day or time."
+  },
+  "unresolved": [
+    "Adjudicate passive death wish, intent, method versus plan, unknown means and timing.",
+    "Define temporal window, subject versus quoted third parties, and handling of negation.",
+    "Import and reconcile the actual tuned teacher codebook before approving annotations."
+  ],
+  "no_risk_label": "NO_RISK",
+  "decision_policy": "highest supported severity"
+}

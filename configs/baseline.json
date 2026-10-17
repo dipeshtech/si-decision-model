@@ -1,0 +1,1 @@
+{"max_features":20000,"min_df":1,"ngram_max":2,"regularization_c":1.0,"max_iter":500,"seed":42}

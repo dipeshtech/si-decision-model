@@ -1,0 +1,22 @@
+{
+  "train": {
+    "count": 501,
+    "families": 40,
+    "sha256": "74d3725f374d38c1fa512cb0b0f532034c722311419075b8226fd0625f989ca7"
+  },
+  "validation": {
+    "count": 98,
+    "families": 8,
+    "sha256": "2e260fe0575cf472b6a9227a7d2d00442ec9fc7d9aa22ad7c8e8651b93935914"
+  },
+  "calibration": {
+    "count": 99,
+    "families": 8,
+    "sha256": "560b17135b4e5a71ff3945eb500a33ed59909792537b0234580903f87a1fcf53"
+  },
+  "test": {
+    "count": 102,
+    "families": 8,
+    "sha256": "33c5ebdc82f041fdac183277b60ab2bb73371244a4ec6423c329f5486a157c4e"
+  }
+}

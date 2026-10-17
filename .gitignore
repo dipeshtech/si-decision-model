@@ -19,3 +19,7 @@ dist/
 *.ckpt
 *.log
 .DS_Store
+
+/optional/cpu-neural/output/
+/optional/cpu-neural/.venv/
+/optional/cpu-neural/pretrained/*.safetensors

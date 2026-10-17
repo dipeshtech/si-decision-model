@@ -1,0 +1,18 @@
+{
+  "model_id": "google/bert_uncased_L-2_H-128_A-2",
+  "model_revision": "30b0a37ccaaa32f332884b96992754e246e48c5f",
+  "license": "Apache-2.0",
+  "seed": 20261017,
+  "device": "cpu",
+  "threads": 4,
+  "max_length": 128,
+  "batch_size": 16,
+  "epochs": 12,
+  "learning_rate": 0.0002,
+  "weight_decay": 0.01,
+  "labels": ["NO_RISK", "SI3", "SI4", "SI5"],
+  "minimum_calibration_precision": 0.9,
+  "selection_metric": "validation_macro_f1",
+  "training_mode": "full_encoder_finetuning",
+  "synthetic_only": true
+}
